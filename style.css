@@ -1,0 +1,142 @@
+.grid-container {
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    margin-bottom: 0px;  
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.flex-container > div {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 75px;
+}
+
+figure.if {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+figcaption.ifr {
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    margin-top: 50px;
+    line-height: 150px;
+}
+
+img {
+    max-height:100%;
+    max-width:100%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-width: 0px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Paytone One', sans-serif;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+.a {
+    font-size: 250%;
+    color: blue;
+    line-height: 20px;
+}
+.dollar {
+    color: green;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    font-size:  20px;
+}
+
+table {
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 85%;
+    border: 2px solid black;
+}
+
+th, td, tr {
+    border: 1px solid black;
+    border-style: solid solid solid solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+th.gray {
+    background-color: lightgray;
+}
+
+td.gray {
+    background-color: lightgray;
+}
+
+tfoot {
+    background-color: lightgray;
+}
+
+fieldset {
+    border-width: 0px;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+datalist {
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    font-size:  20px;
+    font-family: 'Montserrat', sans-serif;
+}
